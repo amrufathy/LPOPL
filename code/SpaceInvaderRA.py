@@ -4,15 +4,11 @@
 # Luca Iocchi 2017
 #
 
-import pygame, sys
+import sys
 import numpy as np
-import atexit
 import random
-import time
-import math
-from math import fabs
 
-from SpaceInvader import *
+from code.SpaceInvader import *
 
 np.set_printoptions(precision=3)
 

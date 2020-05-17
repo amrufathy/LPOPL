@@ -1,12 +1,5 @@
-import pygame, sys
-import numpy as np
-import atexit
-import random
-import time
-import math
-from math import fabs
-import TaskExecutor
-from TaskExecutor import *
+from code import TaskExecutor
+from code.TaskExecutor import *
 
 black = [0, 0, 0]
 white = [255, 255, 255]

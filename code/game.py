@@ -232,7 +232,7 @@ def load(fname, game, agent):
 def writeinfo(trainfilename,game,agent,init=True):
     global optimalPolicyFound
     infofile = open("data/"+trainfilename +".info","a+")
-    allinfofile = open("data/all.info","a+")
+    allinfofile = open("../data/all.info", "a+")
 
     strtime = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
