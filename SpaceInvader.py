@@ -222,6 +222,7 @@ class SpaceInvader(object):
 
 
     def goal_reached(self):
+        #print("you freeze it")
         return len(self.aliens) == 0
         
         
